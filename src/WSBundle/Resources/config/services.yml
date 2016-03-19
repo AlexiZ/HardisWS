@@ -1,0 +1,4 @@
+services:
+#    ws.example:
+#        class: WSBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

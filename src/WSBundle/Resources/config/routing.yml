@@ -1,0 +1,15 @@
+ws_homepage:
+    path:     /
+    defaults: { _controller: WSBundle:Default:index }
+
+ws_get_subscriber:
+    path:     /unique/{id}
+    defaults: { _controller: WSBundle:Subscriber:unique }
+
+ws_get_all_subscribers:
+    path:     /subscribers
+    defaults: { _controller: WSBundle:Subscriber:subscribers }
+
+ws_import:
+    path:     /import
+    defaults: { _controller: WSBundle:Subscriber:import }
